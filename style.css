@@ -1,0 +1,96 @@
+* {
+  padding: 5px;
+  margin: 0;
+  text-align: center;
+  border: 3px solid black;
+  font-family: sans-serif; }
+
+html {
+  border: 0px; }
+
+@media only screen and (min-width: 1000px) {
+  html {
+    padding-left: 10em;
+    width: 50%; } }
+section {
+  padding: 1em;
+  margin-bottom: 1em; }
+
+header {
+  margin: 0.5em 0 1em;
+  padding: 0.5em;
+  display: flex;
+  direction: row;
+  justify-content: space-between; }
+  header .logo {
+    text-align: center;
+    width: 7em;
+    border-radius: 5px; }
+  header .mouseoverHighlight {
+    background-color: aquamarine; }
+  header ul {
+    border: 0;
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    list-style: none; }
+    header ul li {
+      justify-self: flex-end;
+      border-width: 0 0 0 1px;
+      border-radius: 0; }
+    header ul .item1 {
+      border: 0; }
+
+.heading {
+  padding: 1.5em;
+  display: flex;
+  direction: row;
+  justify-content: space-between; }
+  .heading-textbox {
+    border: 0;
+    width: 30%;
+    display: flex;
+    direction: row;
+    flex-direction: column;
+    align-items: flex-start; }
+    .heading-textbox h1 {
+      border: 0;
+      font-weight: 900; }
+    .heading-textbox p {
+      text-align: left;
+      border: 0;
+      font-size: 20px; }
+  .heading img {
+    width: auto;
+    height: 10em;
+    border-radius: 28px; }
+
+.imagenes {
+  display: flex;
+  direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .imagenes-flexboxBad {
+    width: 100%;
+    border: 0;
+    display: flex;
+    direction: row; }
+  .imagenes-flexbox {
+    width: 100%;
+    border: 0;
+    display: flex;
+    direction: row;
+    flex-direction: column;
+    align-items: center; }
+    .imagenes-flexbox img {
+      width: 10em;
+      height: 8em;
+      border-radius: 50%; }
+    .imagenes-flexbox h1 {
+      border: 0; }
+  .imagenes button {
+    width: 60%;
+    height: 4em;
+    align-self: center; }
+
+/*# sourceMappingURL=style.css.map */
